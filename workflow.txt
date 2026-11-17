@@ -1,0 +1,32 @@
+
+          WEBSITE FOOTPRINTING TOOL
+                     |
+                     v
+              User Enters Domain
+                     |
+                     v
+                 Main.py
+                     |
+          +----------+----------+
+          |          |          |
+          v          v          v
+       IP Lookup  DNS Lookup  WHOIS Lookup
+          |          |          |
+          +----------+----------+
+                     |
+          +----------+----------+
+          |          |          |
+          v          v          v
+      HTTP Headers Technology  Subdomain
+       Analysis    Detection   Discovery
+          |          |          |
+          +----------+----------+
+                     |
+                     v
+              Collect Results
+                     |
+                     v
+              Generate Report
+                     |
+                     v
+             reports/*.txt

@@ -1,0 +1,101 @@
+WEBSITE FOOTPRINTING REPORT
+=============================================
+Target Website: example.com
+Date and Time: 2026-11-17 08:07:50
+
+========== IP LOOKUP ==========
+IP Address: 104.20.23.154
+
+
+========== DNS LOOKUP ==========
+
+A Records:
+172.66.147.243
+104.20.23.154
+
+AAAA Records:
+2606:4700:10::ac42:93f3
+2606:4700:10::6814:179a
+
+MX Records:
+0 .
+
+NS Records:
+elliott.ns.cloudflare.com.
+hera.ns.cloudflare.com.
+
+TXT Records:
+"v=spf1 -all"
+"_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9"
+
+
+========== WHOIS LOOKUP ==========
+
+========== WHOIS INFORMATION ==========
+Domain Name: EXAMPLE.COM
+Registrar: RESERVED-Internet Assigned Numbers Authority
+Creation Date: 1995-08-14 04:00:00+00:00
+Expiration Date: 2027-08-13 04:00:00+00:00
+Updated Date: 2026-08-14 08:01:43+00:00
+Name Servers: ['ELLIOTT.NS.CLOUDFLARE.COM', 'HERA.NS.CLOUDFLARE.COM']
+Organization: None
+=======================================
+
+
+========== HTTP HEADERS ANALYSIS ==========
+
+========== HTTP HEADERS ANALYSIS ==========
+Website: https://example.com
+Status Code: 200
+Date: Tue, 17 Nov 2026 13:08:06 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+last-modified: Mon, 16 Nov 2026 00:30:20 GMT
+allow: GET, HEAD
+Age: 12559
+cf-cache-status: HIT
+Content-Encoding: gzip
+CF-RAY: a5bef6518c83ee0f-KHI
+alt-svc: h3=":443"; ma=86400
+
+========== SECURITY HEADERS ==========
+Strict-Transport-Security: Not Found
+Content-Security-Policy: Not Found
+X-Frame-Options: Not Found
+X-Content-Type-Options: Not Found
+Referrer-Policy: Not Found
+
+
+========== TECHNOLOGY DETECTION ==========
+
+========== TECHNOLOGY DETECTION ==========
+Website: https://example.com
+Status Code: 200
+
+Detected Technologies:
+- Web Server: cloudflare
+
+Note: Detection is based on public indicators.
+Results may not identify every technology.
+
+
+========== SUBDOMAIN DISCOVERY ==========
+
+========== SUBDOMAIN DISCOVERY ==========
+Target Domain: example.com
+[FOUND] www.example.com -> 104.20.23.154
+[FOUND] www.example.com -> 172.66.147.243
+[NOT FOUND] mail.example.com
+[NOT FOUND] blog.example.com
+[NOT FOUND] shop.example.com
+[NOT FOUND] admin.example.com
+[NOT FOUND] ftp.example.com
+[NOT FOUND] dev.example.com
+[NOT FOUND] test.example.com
+[NOT FOUND] api.example.com
+[NOT FOUND] webmail.example.com
+
+========== SUMMARY ==========
+Total Subdomains Found: 2
